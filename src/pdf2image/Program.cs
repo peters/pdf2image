@@ -26,8 +26,6 @@ namespace pdf2image
             if (!Directory.Exists(ImageMagickDir))
             {
                 DependencyResolver.DownloadDependency(DependencyType.ImageMagick);
-
-                MagickNET.Initialize(ImageMagickDir);
             }
 
             var gsPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), "gs");
@@ -89,6 +87,9 @@ namespace pdf2image
             {
                 outputDirectory = AppDomain.CurrentDomain.BaseDirectory;
             }
+
+
+            MagickNET.Initialize(ImageMagickDir);
 
             Convert(filename, outputPrefix, outputDirectory, outputFormat, pageRange, dpi, geometry);
 
