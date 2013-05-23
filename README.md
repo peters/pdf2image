@@ -4,11 +4,11 @@ pdf2image
 A simple windows commandline utility that allows you to quickly
 convert pdf documents to images. 
 
-The software itself uses [ImageMagick](http://imagemagick.org) and [GhostScript](http://ghostscript.com).
-ImageMagick supports 228 image formats.
+All dependencies will be automatically downloaded and installed. 
 
-If you haven't already please install [GhostScript 9.07 (32-bit)](http://downloads.ghostscript.com/public/gs907w32.exe)
-before you proceed. ImageMagick will be automatically downloaded by pdf2image.
+Screenshot
+==========
+![pdf2image](http://s22.postimg.org/fk4clkta9/pdf2image.png)
 
 Obtaining ze binary
 ==================
