@@ -2,6 +2,8 @@
 [Bb]in/
 [Oo]bj/
 
+dist/ImageMagick
+
 # mstest test results
 TestResults
 
