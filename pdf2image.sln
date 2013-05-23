@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pdf2image", "src\pdf2image\pdf2image.csproj", "{34929C57-D417-4E7D-90F7-37C5E1E0D826}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34929C57-D417-4E7D-90F7-37C5E1E0D826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34929C57-D417-4E7D-90F7-37C5E1E0D826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34929C57-D417-4E7D-90F7-37C5E1E0D826}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{34929C57-D417-4E7D-90F7-37C5E1E0D826}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{34929C57-D417-4E7D-90F7-37C5E1E0D826}.Debug|x86.ActiveCfg = Debug|x86
+		{34929C57-D417-4E7D-90F7-37C5E1E0D826}.Debug|x86.Build.0 = Debug|x86
+		{34929C57-D417-4E7D-90F7-37C5E1E0D826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34929C57-D417-4E7D-90F7-37C5E1E0D826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34929C57-D417-4E7D-90F7-37C5E1E0D826}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{34929C57-D417-4E7D-90F7-37C5E1E0D826}.Release|Mixed Platforms.Build.0 = Release|x86
+		{34929C57-D417-4E7D-90F7-37C5E1E0D826}.Release|x86.ActiveCfg = Release|x86
+		{34929C57-D417-4E7D-90F7-37C5E1E0D826}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
