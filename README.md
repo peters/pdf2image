@@ -1,7 +1,7 @@
 pdf2image
 =========
 
-A simple windows commandline utility that allows you to quickly
+A simple Windows commandline utility that allows you to quickly
 convert pdf documents to images. 
 
 All dependencies will be automatically downloaded and installed. 
