@@ -34,6 +34,8 @@ namespace pdf2image
                 DependencyResolver.DownloadDependency(DependencyType.GhostScript);
             }
 
+            MagickNET.Initialize(ImageMagickDir);
+
             string filename = null;
             string outputPrefix = null;
             string outputDirectory = null;
@@ -88,8 +90,6 @@ namespace pdf2image
                 outputDirectory = AppDomain.CurrentDomain.BaseDirectory;
             }
 
-
-            MagickNET.Initialize(ImageMagickDir);
 
             Convert(filename, outputPrefix, outputDirectory, outputFormat, pageRange, dpi, geometry);
 
