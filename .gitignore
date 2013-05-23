@@ -2,7 +2,9 @@
 [Bb]in/
 [Oo]bj/
 
+# pdf2image
 dist/ImageMagick
+*.pdf
 
 # mstest test results
 TestResults
